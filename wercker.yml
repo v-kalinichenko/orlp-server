@@ -13,8 +13,8 @@ build:
   # (4) create an name for that pipeline
 deploy:
   box:
-    id: tomcat
-    tag: latest
+    id: openjdk
+    tag: 8-jre-alpine
     cmd: /bin/bash # see: http://devcenter.wercker.com/docs/faq/alpine-faq
   steps:
     # (6) moving our artifact to the final location
