@@ -15,7 +15,7 @@ deploy:
   box:
     id: openjdk
     tag: 8-jre-alpine
-    cmd: /bin/bash # see: http://devcenter.wercker.com/docs/faq/alpine-faq
+    cmd: /bin/sh # see: http://devcenter.wercker.com/docs/faq/alpine-faq
   steps:
     # (6) moving our artifact to the final location
     - script:
